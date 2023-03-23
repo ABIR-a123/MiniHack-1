@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #edd39f;
+}
+
+body {
+    width: 100%;
+    margin-top: 5%;
+}
+
+/* CGExer-1 start */
+.body-heading {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242321;
+    width: 100%;
+    height: 300px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.img-left img {
+    width: 130%;
+    height: 100%;
+}
+
+
+
+.text-right {
+    margin-top: 80px;
+    margin-right: 130px;
+}
+
+.text-right h1 {
+    text-transform: capitalize;
+    color: white;
+
+}
+
+.text-right span {
+    color: #edd39f;
+}
+
+.text-right p {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.btn2 {
+    background-color: #edd39f;
+    padding: 10px 10px;
+    margin-left: 150px;
+    margin-top: 20px;
+    border: 1px solid #edd39f;
+
+}
+
+/* CGExer-1 End */
+
+/* CGExer-2 start */
+.headin2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.main-design2 {
+
+    width: 100%;
+    background-color: #373534;
+    display: grid;
+    grid-template-rows: 200px;
+
+}
+
+.main-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-design .lefticon,
+.middleicon,
+.righticon {
+    padding: 60px;
+    color: white;
+}
+
+i {
+    font-size: 35px;
+}
+
+p {
+    margin-top: 25px;
+}
+
+/* CGExer-2 End */
+
+/* CGExer-3 start */
+.headin3 {
+    margin-top: 50px;
+    color: #242321;
+}
+
+main h1 {
+    margin-top: 70px;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+
+
+}
+
+.top-box,
+.bottom-box {
+    margin: 30px 100px;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 70px 70px;
+    border-radius: 10px;
+    background-color: #e8ba6a;
+    justify-items: center;
+    align-items: center;
+
+
+}
+
+.top-box,
+.bottom-box {
+    display: flex;
+
+}
+
+.top-box img {
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.top-box p {
+    margin-left: 30px;
+    color: #373534;
+    font-weight: 600;
+
+}
+
+.bottom-box img {
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.bottom-box p {
+    margin-left: 30px;
+    color: #373534;
+    font-weight: 600;
+
+}
+
+
+
+
+/* CGExer-3 End */
+
+/* CGExer-4 start */
+nav {
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main-top {
+    background-image: url('./images/bg2.jpg');
+
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-heading {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.left-logo {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.left-logo span {
+    color: rgb(244, 53, 53);
+
+}
+
+.middle-nav {
+    display: flex;
+
+}
+
+.edit-text {
+    padding: 8px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.btn1 {
+    padding: 10px 20px;
+    background-color: rgb(244, 53, 53);
+    border-radius: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+/* CGExer-4 End */
